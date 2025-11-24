@@ -10,7 +10,7 @@ st.title("🏆 Projeto de Portfólio: Análise de Estatísticas de Lutadores do 
 st.markdown("---")
 
 ## 🧑‍💻 Sobre Mim
-st.image("assets\\foto perfil.png", caption="Foto de Perfil", width=200)
+st.image("assets\\foto perfil.png", caption="Foto de Perfil", width=200, output_format="PNG")
 st.header("Hugo Dias")
 st.write("""
 Olá! Meu nome é Hugo, tenho 20 anos e estou atuando na área de Engenharia de Dados.
