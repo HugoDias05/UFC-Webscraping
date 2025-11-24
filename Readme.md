@@ -27,14 +27,13 @@ A solução foi estruturada em três etapas principais, refletindo um pipeline d
 
 ### 📊 Funcionalidades do Dashboard
 
-O aplicativo Streamlit possui uma estrutura multi-página (`00_🏠_Início.py`, `01_📊_Análise...py`, `02_⚖️_Explorar...py`) e oferece os seguintes recursos de análise:
+O aplicativo Streamlit possui uma estrutura multi-página (`Home.py`, `01_📊_Análise...py`, `02_⚖️_Explorar...py`) e oferece os seguintes recursos de análise:
 
 | Página | Funcionalidade | Descrição |
 | :--- | :--- | :--- |
-| **Início** | Apresentação | Tela inicial com **apresentação do desenvolvedor** (Hugo Dias) e detalhamento do projeto (Portfólio). |
+| **Home** | Apresentação | Tela inicial com **apresentação do desenvolvedor** (Hugo Dias) e detalhamento do projeto (Portfólio). |
 | **Análise de Lutadores** | **Comparação 1v1** | Permite selecionar dois lutadores para visualizar suas métricas lado a lado. |
-| | **Gráficos de Comparação** | Visualização de barras comparando métricas chave (**SLpM, Precisão, Defesa**) entre os dois lutadores selecionados. |
-| **Explorar por Peso** | **Filtro de Categoria** | Tabela interativa que permite filtrar todos os lutadores por **Peso Pesado, Peso Leve,** etc. |
+| **Filtro por Peso** | **Filtro de Categoria** | Tabela interativa que permite filtrar todos os lutadores por **Peso Pesado, Peso Leve,** etc. |
 
 ---
 
@@ -60,24 +59,22 @@ O pipeline de dados é executado em `webscraping.py` (Coleta) e, em seguida, pel
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [SEU_LINK_DO_REPOSITORIO]
+    git clone https://github.com/HugoDias05/UFC-Webscraping
     ```
 
 2.  **Instale as dependências:**
     ```bash
-    pip install -r requirements.txt 
-    # (ou pip install streamlit pandas requests beautifulsoup4 numpy)
+    pip install streamlit pandas requests beautifulsoup4 numpy
     ```
 
-3.  **Execute o pipeline de coleta (AVISO: Leva algumas horas!):**
+3.  **Execute o pipeline de coleta (AVISO: Leva algumas horas por conta da quantidade de Lutadores presentes no UFC!):**
     ```bash
     python webscraping.py
-    # Execute o script de transformação aqui, se for um arquivo separado.
     ```
 
 4.  **Inicie o Dashboard:**
     ```bash
-    streamlit run 00_🏠_Início.py
+    streamlit run Home.py
     ```
     O aplicativo será aberto automaticamente no seu navegador.
 
@@ -86,6 +83,4 @@ O pipeline de dados é executado em `webscraping.py` (Coleta) e, em seguida, pel
 ### 📧 Desenvolvedor
 
 **Hugo Dias**
-* **Função:** [Sua Função Atual/Objetivo de Carreira]
-* **LinkedIn:** [Seu Link do LinkedIn]
-* **GitHub:** [Seu Link do GitHub]
+*  [[**LinkedIn**](https://linkedin.com/in/hugoduartedias)]
