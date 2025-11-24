@@ -9,17 +9,6 @@ st.set_page_config(
 st.title("🏆 Projeto de Portfólio: Análise de Estatísticas de Lutadores do UFC")
 st.markdown("---")
 
-## 🧑‍💻 Sobre Mim
-st.image("assets/foto perfil.png", caption="Foto de Perfil", width=200, output_format="PNG")
-st.header("Hugo Dias")
-st.write("""
-Olá! Meu nome é Hugo, tenho 20 anos e estou atuando na área de Engenharia de Dados.
-Este projeto demonstra minhas habilidades em **WebScraping-Pipelines** e **Visualização** utilizando Python.
-Estou fazendo esse projeto pessoal, por conta de que gosto bastante do universo das lutas, então, uni o meu Hobby com minha profissão atual para fazer com muito empenho, espero que gostem!
-""")
-st.markdown(f"**LinkedIn:** https://linkedin.com/in/hugoduartedias")
-st.markdown("---")
-
 
 ## ⚙️ Sobre o Projeto
 st.header("Data Pipeline e Dashboard Interativo")
@@ -43,3 +32,15 @@ with col3:
 
 st.markdown("---")
 st.info("Navegue até a página **'Análise dos Lutadores'** no menu lateral para interagir com o dashboard!")
+
+
+## 🧑‍💻 Sobre Mim
+st.image("assets/foto perfil.png", caption="Foto de Perfil", width=200, output_format="PNG")
+st.header("Hugo Dias")
+st.write("""
+Olá! Meu nome é Hugo, tenho 20 anos e estou atuando na área de Engenharia de Dados.
+Este projeto demonstra minhas habilidades em **WebScraping-Pipelines** e **Visualização** utilizando Python.
+Estou fazendo esse projeto pessoal, por conta de que gosto bastante do universo das lutas, então, uni o meu Hobby com minha profissão atual para fazer com muito empenho, espero que gostem!
+""")
+st.markdown(f"**LinkedIn:** https://linkedin.com/in/hugoduartedias")
+st.markdown("---")
