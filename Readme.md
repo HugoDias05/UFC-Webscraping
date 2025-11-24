@@ -70,7 +70,6 @@ O pipeline de dados é executado em `webscraping.py` (Coleta) e, em seguida, pel
 3.  **Execute o pipeline de coleta (AVISO: Leva algumas horas por conta da quantidade de Lutadores presentes no UFC!):**
     ```bash
     python webscraping.py
-    # Execute o script de transformação aqui, se for um arquivo separado.
     ```
 
 4.  **Inicie o Dashboard:**
